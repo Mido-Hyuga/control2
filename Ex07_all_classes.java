@@ -12,7 +12,7 @@ import java.util.Date ;
  *
  * @author elmeh
  */
-interface Ex07_all_classes{
+interface Produits{
     public abstract Date datePer();
     public abstract int numjr();
 }
@@ -105,7 +105,7 @@ class electo extends Article implements susceptibleSolde
         return prix_vend;
     }     
         }
-class Prime extends Article implements Ex07_all_classes
+class Prime extends Article implements Produits
 {
   Date date_per;
 
