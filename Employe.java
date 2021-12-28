@@ -238,6 +238,6 @@ class test{
      Associe v = new Associe(2, "hmida", "Etherum", new Date("02/ 17/ 2021"), 3);
         System.out.println(v);
 			System.out.println("Le salaire d'associé est: " + v.GetSalaire());
-
+ 
     }
 }
